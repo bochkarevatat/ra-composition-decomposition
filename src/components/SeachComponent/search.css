@@ -1,0 +1,33 @@
+.search-list {
+    /* flex: 0 0 30%;
+    padding: 15px;
+    border: 1px solid #000; */
+  }
+
+  .search-container{
+    border: 1px solid #000;
+    height: 300px;
+  }
+  .nav{
+    display: flex;
+  }
+  .search-component{
+    display: flex;
+flex-direction: column;
+  }
+  .search-form{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+  }
+  .search-clue{
+    margin-left: 130px;
+    color: rgb(170, 168, 165);
+  }
+  .search-img{
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+    background: no-repeat center/80% url("https://photobooth.cdn.sports.ru/preset/post/8/e1/a782b653a45e390a3a703cf0aaaa0.jpeg");
+    border: 1px solid black;
+  }

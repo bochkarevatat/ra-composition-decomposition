@@ -1,0 +1,44 @@
+.card_all{
+   width: 100%;
+}
+
+.card {
+    width: 100%;
+    /* flex: 0 0 30%; */
+    padding: 15px;
+}
+
+.card a{
+    
+    text-decoration: none;
+}
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* grid: repeat(3, 20%) / auto-flow 100px;
+    grid-template-areas:
+    "header header header"
+    "content content"
+    "content content ." */
+    
+
+.card-list{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    list-style: none;
+}
+.card-children{
+    width: 80%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.card-item{
+    display: inline-block;;
+    width: 28%;
+    margin-left: 5px;
+    border: 1px solid black; 
+}
